@@ -1,0 +1,8 @@
+[Unit]
+Description=Start bridge local HID device to remote HID device.
+
+[Service]
+ExecStart=/usr/bin/usb_gadget_hid_mouse
+
+[Install]
+WantedBy=multi-user.target
